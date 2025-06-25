@@ -10,24 +10,13 @@ h1 {
     margin: 1rem;
 }
 
-.cards {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+table {
+    margin-top: 10px;
 }
 
-.card {
-    flex-basis: 31%;
-    margin: 1rem 0.4rem;
-    padding: 1rem 0.4rem 2.5rem 0.4rem;
-    border: solid 1px lightgrey;
-    border-radius: 15px;
-    box-shadow: 3px 2px 6px lightgrey;
-}
-
-.card__email {
-    font-size: 1rem;
+th, td {
+    padding: 15px;
+    border: 1px solid black;
 }
 
 .form-wrapper {
@@ -38,6 +27,11 @@ h1 {
     border: solid 1px lightgrey;
     border-radius: 15px;
     box-shadow: 3px 2px 6px lightgrey;
+
+    a {
+        display: block;
+        margin-top: 10px;
+    }
 }
 
 label, input {

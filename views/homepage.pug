@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+    head
+        title= `${title}`
+        link(rel="stylesheet", href="/css/style.css")
+    body
+        .properties-wrapper
+            h1 Custom Object Table
+            a(href='/update-cobj') Add to this table
+            table(style={border: '1px solid black;'})
+                thead
+                    th Name 
+                    th Type 
+                    th Bio 
+                each dog in data
+                    tr 
+                        td.card__email #{dog.properties.bio}
+                        td.card__email #{dog.properties.yellow}
+                        td.card__email #{dog.properties.labrador}
